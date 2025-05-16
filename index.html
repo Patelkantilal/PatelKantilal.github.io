@@ -1,30 +1,519 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./src/Image/logo.png" type="image/png">
-    <title>Kantilal Patel</title>
-    <meta name="description" content="Need a data pipeline, a full-stack web app, a smart software tool, or an Android app? I’m Kantilal Patel – I bring ideas to life with clean, effective tech solutions." />
-    <meta name="author" content="kantilal Patel" />
-    <meta name="title" content="kantilal Patel" />
-    <meta name="keywords" content="kantilal Patel, kantilal pravinbhai Patel, kantilal, patel, web developer in ahmedabad, data engineer in ahmedabad, programmer">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta property="og:title" content="kantilal Patel" />
-    <meta property="og:site_name" content="kantilal Patel">
-    <meta property="og:description" content="Need a data pipeline, a full-stack web app, a smart software tool, or an Android app? I’m Kantilal Patel – I bring ideas to life with clean, effective tech solutions." />
-    <meta property="og:type" content="website" />
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <base href="/" />
-  </head>
+  <link rel="icon" href="/logo.png" type="image/png" />
+  <title>Kantilal Patel</title>
+  <meta name="description" content="Need a data pipeline, a full-stack web app, a smart software tool, or an Android app? I’m Kantilal Patel – I bring ideas to life with clean, effective tech solutions." />
+  <meta name="author" content="Kantilal Patel" />
+  <meta name="title" content="Kantilal Patel" />
+  <meta name="keywords" content="Kantilal Patel, kantilal pravinbhai Patel, kantilal, patel, web developer in Ahmedabad, data engineer in Ahmedabad, programmer">
 
-  <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <!-- Open Graph for social media -->
+  <meta property="og:image" content="/logo.png" />
+  <meta property="og:title" content="Kantilal Patel" />
+  <meta property="og:site_name" content="Kantilal Patel" />
+  <meta property="og:description" content="Need a data pipeline, a full-stack web app, a smart software tool, or an Android app? I’m Kantilal Patel – I bring ideas to life with clean, effective tech solutions." />
+  <meta property="og:type" content="website" />
+
+  <!-- External Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+
+<body>
+  <div id="root">
+    <!-- Header / Navigation -->
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <h2>KP.</h2>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+            <li><a href="#resume"><i class="fas fa-file"></i> Resume</a></li>
+            <li><a href="#services"><i class="fas fa-server"></i> Services</a></li>
+            <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+          </ul>
+          <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+      <div class="container">
+        <div class="home-content">
+          <div class="welcome-text glass-effect">Welcome to my portfolio</div>
+          <h1>Crafting Digital Experiences</h1>
+          <p>I design and build digital experiences that are intuitive, accessible, and visually stunning. Let's create something amazing together.</p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn btn-primary">
+              View My Work
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+          <p>Get to know me better</p>
+          <div class="underline"></div>
+        </div>
+
+        <div class="about-content">
+          <div class="about-img glass-effect">
+            <img src="/photo.jpg" alt="Profile Image" />
+          </div>
+          <div class="about-text">
+            <h3>Who am I?</h3>
+            <p>I’m a passionate software developer and full-stack engineer who loves building end-to-end solutions. From creating smooth user interfaces to optimizing back-end processes, I focus on writing clean, efficient code.</p>
+            <p>I also have a strong interest in data engineering, working with large datasets to build reliable pipelines and extract meaningful insights. My goal is to create systems that are both scalable and impactful.</p>
+            
+            <div class="personal-info">
+              <div class="info-item">
+                <h4>Name</h4>
+                <p>Kantilal Patel</p>
+              </div>
+              <div class="info-item">
+                <h4>Email</h4>
+                <p>kantipatel1422@gmail.com</p>
+              </div>
+              <div class="info-item">
+                <h4>Location</h4>
+                <p>Ahmeadabad, Gujrat.  </p>
+              </div>
+              <div class="info-item">
+                <h4>Availability</h4>
+                <p>Available for work</p>
+              </div>
+            </div>
+
+            <div class="cta-buttons">
+              <a href="/Resume.pdf" id="download-cv" class="btn btn-primary" data-cv-url="/Resume.pdf"> 
+                <i class="fas fa-download"></i>
+                Download CV
+              </a>
+              <a href="#contact" class="btn btn-outline">Contact Me <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Skills</h2>
+          <p>Expertise and technologies I work with</p>
+          <div class="underline"></div>
+        </div>
+
+        <div class="skills-content">
+          <div class="skill-category glass-effect">
+            <h3>Software Development</h3>
+            <p>Creating robust and scalable applications</p>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Data Structure and Algorithm</span>
+                <span>84%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-value="84%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Object Oriented Programming</span>
+                <span>88%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-value="88%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>C/C++</span>
+                <span>92%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-value="92%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Python</span>
+                <span>82%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-value="82%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Azure Cloud</span>
+                <span>80%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-value="80%"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skill-category glass-effect">
+            <h3>Website Development</h3>
+            <p>Crafting beautiful user experiences</p>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Full Stack Development</span>
+                <span>85%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-value="85%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>HTML & CSS</span>
+                <span>80%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-value="80%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span>77%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-value="77%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>React</span>
+                <span>84%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-value="84%"></div>
+              </div>
+            </div>
+            
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Node.js</span>
+                <span>80%</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress" data-value="80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Resume</h2>
+          <p>My education and experience journey</p>
+          <div class="underline"></div>
+        </div>
+
+        <div class="resume-content">
+          <div class="experience">
+            <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+            
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <div class="timeline-date glass-effect">2025 - Present</div>
+              <div class="timeline-content glass-effect">
+                <h4>Data Engineering</h4>
+                <h5>STMicroelectronics</h5>
+                <p>Gained experience in developing a real-time data streaming solution with Confluent Kafka and Databricks, utilizing PySpark and SQL to enhance data access, quality, and scalability across the Medallion Architecture.</p>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <div class="timeline-date glass-effect">2022 - 2023</div>
+              <div class="timeline-content glass-effect">
+                <h4>Full Stack Developer</h4>
+                <h5>Shreeji Web Creation</h5>
+                <p>During my full-stack web developer internship, I gained hands-on experience in building APIs with Node.js, efficiently handling data with SQL and NoSQL databases, and enhancing client-side development using React.js.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="education">
+            <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+            
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="timeline-date glass-effect">2023 - 2025</div>
+              <div class="timeline-content glass-effect">
+                <h4>Master's in Data Engineering</h4>
+                <h5>IIIT Delhi</h5>
+                <p>Pursuing M.Tech in Computer Science with a specialization in Data Engineering, achieving a GPA of 8.04, and gaining expertise in data processing, analytics, scalable systems, and engineering solutions.</p>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="timeline-date glass-effect">2019 - 2023</div>
+              <div class="timeline-content glass-effect">
+                <h4>Bachelor's in Computer Engineering</h4>
+                <h5>L.J. Institute of Engineering and Technology</h5>
+                <p>Completed B.Tech in Computer Engineering with a GPA of 8.85, building a strong foundation in computer systems, programming, algorithms, data structures, and problem-solving.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Services</h2>
+          <p>What I can do for you</p>
+          <div class="underline"></div>
+        </div>
+
+        <div class="services-content">
+          <div class="service-card">
+            <div class="service-icon glass-effect">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Software Development</h3>
+            <p>Creating robust, scalable software solutions tailored to your specific business needs and requirements.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon glass-effect">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Data Engineering</h3>
+            <p>Building efficient data pipelines and infrastructure to collect, process, and store data securely.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon glass-effect">
+              <i class="fas fa-globe"></i>
+            </div>
+            <h3>Web Development</h3>
+            <p>Building fast, responsive and scalable websites with modern technologies and best practices.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon glass-effect">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Data Analytics</h3>
+            <p>Transforming raw data into meaningful insights to drive informed business decisions.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon glass-effect">
+              <i class="fas fa-server"></i>
+            </div>
+            <h3>Big Data</h3>
+            <p>Handling and processing large volumes of data efficiently to extract valuable information.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon glass-effect">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3>Machine Learning</h3>
+            <p>Creating intelligent systems that learn from data and improve over time to solve complex problems.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Projects</h2>
+          <p>Take a look at my featured work</p>
+          <div class="underline"></div>
+        </div>
+
+        <div class="projects-filter">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="c/c++">C/C++</button>
+          <button class="filter-btn" data-filter="data">Data Enginerring</button>
+          <button class="filter-btn" data-filter="ml">Machine Learning</button>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card" data-category="c/c++">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&h=500" alt="Project Image" />
+            </div>
+            <div class="project-overlay">
+              <h3>Acadmia Portal</h3>
+              <p>Built an academic portal with course controls and secure, real-time updates.</p>
+              <div class="project-tags">
+                <span>C</span>
+                <span>Socket</span>
+                <span>System Call</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card" data-category="data">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&h=500" alt="Project Image" />
+            </div>
+            <div class="project-overlay">
+              <h3>Tastbud</h3>
+              <p>Built a ReactJS food recommender using MySQL for personalized menu suggestions.</p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>MySQL</span>
+                <span>ETL</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card" data-category="ml">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&h=500" alt="Project Image" />
+            </div>
+            <div class="project-overlay">
+              <h3>Job Seeker</h3>
+              <p>Built an LLM-based job matcher for resume analysis and personalized suggestions.</p>
+              <div class="project-tags">
+                <span>React</span>
+                <span>LLM</span>
+                <span>ML</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="center-content">
+          <a href="#" class="btn btn-outline glass-effect">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Contact Us</h2>
+          <p>Get in touch with Me to design experts to discuss your next project or schedule a consultation.</p>
+          <div class="underline"></div>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-card">
+            <div class="contact-icon glass-effect">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Location</h3>
+            <p>Ahmedabad, Gujrat.</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon glass-effect">
+              <i class="fas fa-phone"></i>
+            </div>
+            <h3>Phone Number</h3>
+            <p>(+91) 95108 33402</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon glass-effect">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email Address</h3>
+            <p>kantipatel1422@gmail.com</p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon glass-effect">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>Working Hours</h3>
+            <p>Monday - Friday: 9AM - 6PM</p>
+          </div>
+        </div>
+
+        <div class="center-content">
+          <a href="mailto:kantipatel1422@gmail.com" class="btn btn-primary">Say Hello..!</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="copyright">
+            <p>&copy; 2025 All rights reserved.</p>
+          </div>
+          
+          <div class="social-links">
+            <a href="https://www.instagram.com/kartik_1422" class="glass-effect"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/kantipatel14/" class="glass-effect"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/kanti1422" class="glass-effect"><i class="fab fa-github"></i></a>
+          </div>
+          
+          <div class="footer-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/main.js"></script>
+</body>
 </html>
